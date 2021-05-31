@@ -9,8 +9,6 @@ function numbB(name)
 {
     alert(name);
 }
-numbA();
-numbB('Vishal');
 
 task3Element.addEventListener('click', numbA);
 
