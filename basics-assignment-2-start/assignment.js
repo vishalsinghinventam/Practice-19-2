@@ -18,4 +18,13 @@ function numbC(a, b, c)
     return combinedText;
 }
 let result = numbC( 'welcome', 'to', 'JS');
-alert(result);
+var Person = function(name)
+{
+    this.name = name;
+    this.canTalk = true;
+}
+
+Person.prototype.greet = function()
+{
+    
+}
